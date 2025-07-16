@@ -3,17 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <title>Pinterest Clone Hero</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+      padding: 40px;
+      gap: 50px;
+    }
+
+    .hero-content {
+      max-width: 500px;
+    }
+
+    .hero-content h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .hero-content p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      background-color: #e60023;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 16px;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background-color: #c1001a;
+    }
+  </style>
 </head>
 <body>
 
   <div class="hero">
     <div class="hero-image">
-      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Nature">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+           alt="Nature"
+           style="width: 400px; height: 500px; object-fit: cover;">
     </div>
 
     <div class="hero-content">
-      <h1>Welcome to my <br>Pinterest clone</h1>
+      <h1>Welcome to my <br>Pinterest Clone</h1>
       <p>Discover new inspiration and save your favorite ideas</p>
       <a href="#" class="btn">Explore now</a>
     </div>
